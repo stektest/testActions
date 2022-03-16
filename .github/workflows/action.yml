@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: |
-          title="${{ github.event.push.title }}"
+          title="${{ github.event.push.commits[][message]}}"
           if [[ $title =~ ^octocat ]]; then
           echo "PR title starts with 'octocat'"
           exit 0
