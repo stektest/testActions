@@ -1,2 +1,2 @@
 # testActions
-Pippo pluto paperino
+Pippo pluto paperino.
