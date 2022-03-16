@@ -1,2 +1,2 @@
 # testActions
-Pippo pluto paperi
+Pippo pluto paper*
